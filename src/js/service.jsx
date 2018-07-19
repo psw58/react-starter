@@ -42,13 +42,15 @@ class MyComponent extends React.Component {
     } else if (!isLoaded) {
       return <div>Loading...</div>;
     } else {
+      const linksList =  items.children.map( (element, i) => {
+          return <li key={i} ><a href={element.data.url} target='_blank'>{element.data.title}</a> </li>;
+        });      
+        
       return (
         <div>
         <h1>{`https://www.reddit.com/r/${this.props.subreddit}.json`}</h1>
         <ul>
-          {items.children.map( (element, i) => {
-            return <li key={i} ><a href={element.data.url} target='_blank'>{element.data.title}</a> </li>;
-          }) }
+          { linksList }
         </ul>        
         </div>
       );
