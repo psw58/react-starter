@@ -1,9 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-class MyComponent extends React.Component {
+//an example of ajax query using fetch
+export class MyComponent extends React.Component {
   constructor(props) {
     super(props);
+    //create a state variable that holds the data query
     this.state = {
       error: null,
       isLoaded: false,
@@ -48,17 +50,13 @@ class MyComponent extends React.Component {
         
       return (
         <div>
-        <h1>{`https://www.reddit.com/r/${this.props.subreddit}.json`}</h1>
-        <ul>
-          { linksList }
-        </ul>        
+          <h1>{`https://www.reddit.com/r/${this.props.subreddit}.json`}</h1>
+          <ul>
+            { linksList }
+          </ul>        
         </div>
       );
     }
   }
 }
 
-ReactDOM.render(
-  <MyComponent subreddit="reactjs" />,
-  document.getElementById('root')  
-);

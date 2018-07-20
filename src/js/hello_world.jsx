@@ -1,5 +1,12 @@
 import React, { Component } from 'react';
 
+//https://reactjs.org/docs/components-and-props.html
+//this following class is equivolent to 
+/*
+function HelloWorld(props) {
+	return <div className="hello-world"><h1>Hello World {props.name}</h1></div>;
+  }
+  */
 export class HelloWorld extends Component {
 	render() {
 		return (
@@ -9,5 +16,6 @@ export class HelloWorld extends Component {
 		);
 	}
 }
+
 
 export default HelloWorld;
