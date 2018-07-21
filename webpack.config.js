@@ -4,8 +4,9 @@ module.exports = {
     mode: 'development',
     entry: path.resolve(__dirname, 'src', 'app.jsx'),
     output: {
-        path: path.resolve(__dirname, 'output'),
-        filename: 'bundle.js'
+        path: path.resolve(__dirname, './output'),
+        filename: 'app.bundle.js',
+        sourceMapFilename: 'app.bundle.js.map'
     },
     resolve: {
         extensions: ['.js', '.jsx'],

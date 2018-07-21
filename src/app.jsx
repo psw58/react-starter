@@ -6,12 +6,11 @@ import {MyButton} from './js/events';
 
 import { MyComponent } from './js/service';
 
-
 //styles
 import './css/_cwd_events.scss';
 
 ReactDOM.render(
-      <HelloWorld name="Phil" />,
+      <HelloWorld name="test" />,
     document.getElementById('hello_world')
 );
 
