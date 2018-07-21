@@ -15,3 +15,7 @@ Run dev server:
     yarn run dev
 
 Open your favorite browser and type in http://localhost:8080
+
+to build output files:
+
+    yarn run webpack
