@@ -19,7 +19,7 @@ Open your favorite browser and type in http://localhost:8080
 ### Type something in search ( space shows all employees)
 
 Inline-style: 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![alt text](https://i.ibb.co/5nyfs1R/react-example.jpg "Logo Title Text 1")
 
 
 to build output files:
