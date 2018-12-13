@@ -24,4 +24,4 @@ to build output files:
 
 example output
 
-![alt text] ("https://i.ibb.co/5nyfs1R/react-example.jpg" "jQury vs React output")
+![alt text] (https://i.ibb.co/5nyfs1R/react-example.jpg "jQury vs React output")
