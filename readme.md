@@ -18,7 +18,8 @@ Open your favorite browser and type in http://localhost:8080
 
 ### Type something in search ( space shows all employees)
 
-Inline-style: 
+Example output: 
+
 ![alt text](https://i.ibb.co/5nyfs1R/react-example.jpg "Logo Title Text 1")
 
 
