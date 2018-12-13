@@ -20,7 +20,7 @@ Open your favorite browser and type in http://localhost:8080
 
 Example output: 
 
-![alt text](https://i.ibb.co/5nyfs1R/react-example.jpg "Logo Title Text 1")
+![alt text](https://i.ibb.co/5nyfs1R/react-example.jpg "jQuery vs React output")
 
 
 to build output files:
