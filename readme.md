@@ -16,12 +16,14 @@ Run dev server:
 
 Open your favorite browser and type in http://localhost:8080
 
+### Type something in search ( space shows all employees)
+
+example output:
+
+<img src="https://i.ibb.co/5nyfs1R/react-example.jpg" alt="react-example" border="0">
+
 to build output files:
 
     yarn run webpack
 
-### type something in search ( space shows all employees)
 
-example output
-
-![alt text] (https://i.ibb.co/5nyfs1R/react-example.jpg "jQury vs React output")
